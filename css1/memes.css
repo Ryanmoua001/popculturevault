@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,900&display=swap');
+
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    margin:0;
+    overflow: display;
+}
+.header {
+    background-color: #FFFFFF;
+    border color: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 20px;
+    border: 3px;
+
+}
+.content{
+    text-align: justify;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    border-radius: 25px;
+    width: 450px;
+}
+
+p {
+    text-align: center;
+
+}
+.home{
+   font-size: 30px;
+   background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    border:0px;
+    margin: 0;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.box {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 100px;
+    border-radius: 25px;
+    width: 1155px;
+    height: 200px;
+    z-index: -2;
+}
+
+.box2 {
+    background-color: #FFFAAF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 100px;
+    border-radius: 25px;
+    width: 1155px;
+    height: 100px;
+    z-index: -1;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 150px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50px;
+}
+
+.sounds {
+    background-color: #FFFA5F;
+    font color: black;
+    border: 0;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+}
+
+.sounds:hover {
+    opacity: 0.9;
+}
+
+.container1{
+    font-size: 20px;
+    background-color: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 15px;
+     right: 15px;
+     border:0px;
+     margin: 0;
+     padding: 10px;
+     border-radius: 25px;
+ }

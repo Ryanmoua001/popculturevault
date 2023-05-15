@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,900&display=swap');
+
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #d5d5d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    margin:0;
+    overflow: display;
+}
+
+.treasure {
+    background-color:#87868c;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 3px solid var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+    position: fixed;
+}
+.circle {
+    background-color:#111111;
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    border: 3px solid var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: fixed;
+}
+img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f1f1;
+    height:120px;
+    width: 120px;
+    margin: 0;
+    border-radius: 80%;
+ }
+
+.box {
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    margin:0;
+    font-size: 20px;
+    background-color:#f1f1f1;
+ }

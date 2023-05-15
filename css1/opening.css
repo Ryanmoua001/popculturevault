@@ -1,0 +1,28 @@
+body {
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: #112231;
+}
+.container {
+    background-color: #fafad1;
+    border-radius: 10px;
+    padding: 50px 20px;
+    text-align: center;
+    width: 800px;
+}
+
+.btn {
+    background-color: #921248;
+    color: #ffff;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+

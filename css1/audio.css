@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,900&display=swap');
+
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    margin:0;
+    overflow: display;
+}
+
+.header {
+    background-color:  #E6E6FA;
+    border color: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    margin: 0;
+    letter-spacing: 1px;
+    padding: 3px;
+    border-radius: 20px;
+    border: 3px;
+}
+
+.home{
+    font-size: 30px;
+    background-color: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 15px;
+     left: 15px;
+     border:0px;
+     margin: 0;
+     padding: 5px;
+     border-radius: 25px;
+ }
+
+ .box {
+    background-color: #967bb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 100px;
+    border-radius: 25px;
+    width: 1155px;
+    height: 250px;
+    z-index: -2;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+}
+
+.btn {
+    background-color: #921248;
+    color: #ffff;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.container1{
+    font-size: 20px;
+    background-color: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 15px;
+     right: 15px;
+     border:0px;
+     margin: 0;
+     padding: 10px;
+     border-radius: 25px;
+ }
