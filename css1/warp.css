@@ -59,16 +59,7 @@ img {
  }
 
  @media (max-width: 480px) {
-    .box {
-        width: 100vw;
-    }
-    img {
-        width: 100vw;
-    }
-    .circle {
-        width: 100vw;
-    }
-    .treasure {
+    .full {
         width: 100vw;
     }
  }
