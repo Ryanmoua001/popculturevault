@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
     height: 100vh;
     margin:0;
     overflow: display;
@@ -17,6 +17,7 @@ body {
     background-color:#87868c;
     height: 600px;
     width: 600px;
+    margin:0;
     border-radius: 50%;
     border: 3px solid var(--grey);
     display: flex;
@@ -29,6 +30,7 @@ body {
     background-color:#111111;
     height: 550px;
     width: 550px;
+    margin:0;
     border-radius: 50%;
     border: 3px solid var(--grey);
     display: flex;
@@ -56,10 +58,4 @@ img {
     margin:0;
     font-size: 20px;
     background-color:#f1f1f1;
- }
-
- @media (max-width: 480px) {
-    body {
-        width: 100vw;
-    }
  }
