@@ -106,16 +106,100 @@ body {
  }
 
  @media (max-width: 480px) {
-    .box {
-        width: 100vw;
-    }
-    img {
-        width: 100vw;
-    }
-    .circle {
-        width: 100vw;
-    }
-    .treasure {
-        width: 100vw;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,900&display=swap');
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    margin:0;
+    overflow: display;
+}
+.home{
+    font-size: 40px;
+    background-color: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     border:0px;
+     margin: 0;
+     padding: 50px;
+     border-radius: 25px;
+ }
+ img {
+    border-radius: 5%;
+}
+.picture1 {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 115px;
+}
+.picture2 {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 150px;
+}
+.box {
+    background-color: #3EB489;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 100px;
+    border-radius: 25px;
+    width: 1155px;
+    height: 250px;
+    z-index: -2;
+}
+.column {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    padding: 1px;
+    left: 115px;
+    top:190px;
+    border-radius: 25px;
+}
+.column1 {
+    font-size: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    right: 85px;
+    top:150px;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+.container1{
+    font-size: 20px;
+    background-color: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 15px;
+     right: 15px;
+     border:0px;
+     margin: 0;
+     padding: 10px;
+     border-radius: 25px;
+ }
  }
