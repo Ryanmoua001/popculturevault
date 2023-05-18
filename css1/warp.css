@@ -39,7 +39,7 @@ body {
 }
 img {
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: center;
     align-items: center;
     background-color:#f1f1f1;
@@ -59,7 +59,7 @@ img {
  }
 
  @media (max-width: 480px) {
-    .full {
+    body {
         width: 100vw;
     }
  }
