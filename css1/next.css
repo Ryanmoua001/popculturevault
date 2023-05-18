@@ -104,3 +104,18 @@ body {
      padding: 10px;
      border-radius: 25px;
  }
+
+ @media (max-width: 480px) {
+    .box {
+        width: 100vw;
+    }
+    img {
+        width: 100vw;
+    }
+    .circle {
+        width: 100vw;
+    }
+    .treasure {
+        width: 100vw;
+    }
+ }

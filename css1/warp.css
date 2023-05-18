@@ -57,3 +57,18 @@ img {
     font-size: 20px;
     background-color:#f1f1f1;
  }
+
+ @media (max-width: 480px) {
+    .box {
+        width: 100vw;
+    }
+    img {
+        width: 100vw;
+    }
+    .circle {
+        width: 100vw;
+    }
+    .treasure {
+        width: 100vw;
+    }
+ }
