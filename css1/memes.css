@@ -13,14 +13,6 @@ body {
     overflow: display;
 }
 
-.morph {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-
-}
-
 .header {
     background-color: #FFFFFF;
     border color: black;
