@@ -10,7 +10,7 @@ body {
     position: relative;
     height: 100vh;
     margin:0;
-    overflow: hidden;
+    overflow: display;
 }
 
 .header {
@@ -167,3 +167,7 @@ p {
      padding: 10px;
      border-radius: 25px;
  }
+
+
+
+
