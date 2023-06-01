@@ -20,11 +20,11 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-   
-   
-   
-   
-   
+    top: 50px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 20px;
+    border: 3px;
 }
 
 .content{
