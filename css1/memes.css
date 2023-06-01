@@ -13,12 +13,11 @@ body {
     overflow: display;
 }
 
-.morph {
+. {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin: 900px 600px;
 }
 
 .header {
@@ -99,15 +98,15 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     right: 150px;
 }
 
 .img2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
+    justify-content: float left;
+    align-items: float left;
+    position: relative;
     left: 50px;
 }
 
