@@ -104,8 +104,8 @@ p {
 
 .img2 {
     display: flex;
-    justify-content: float left;
-    align-items: float left;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 50px;
 }
