@@ -14,7 +14,7 @@ body {
 }
 .header {
     background-color: #FFFFFF;
-    border color: solid black;
+    border color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,3 +134,9 @@ p {
      padding: 10px;
      border-radius: 25px;
  }
+
+ @media (max-width: 500px) {
+    body{
+        flex-direction: column;
+    }
+}

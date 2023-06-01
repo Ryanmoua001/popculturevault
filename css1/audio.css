@@ -15,7 +15,7 @@ body {
 
 .header {
     background-color:  #E6E6FA;
-    border color: solid black;
+    border color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,3 +93,9 @@ body {
      padding: 10px;
      border-radius: 25px;
  }
+
+ @media (max-width: 500px) {
+    body{
+        flex-direction: column;
+    }
+}
