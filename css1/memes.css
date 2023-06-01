@@ -12,14 +12,6 @@ body {
     margin:0;
     overflow: display;
 }
-
-. {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
-
 .header {
     background-color: #FFFFFF;
     border color: black;
@@ -98,7 +90,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
     right: 150px;
 }
 
@@ -106,7 +98,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
     left: 50px;
 }
 
